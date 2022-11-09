@@ -1,0 +1,76 @@
+<ActionBar title="Sliders"> </ActionBar>
+
+<StackLayout>
+  <GridLayout rows="auto" columns="auto,*,auto">
+    <Label
+      row="0"
+      col="0"
+      text="0"
+      textWrap="true"
+      width="10%"
+      style="text-align: center"
+    >
+    </Label>
+    <MDSlider
+      row="0"
+      col="1"
+      value="50"
+      minValue="0"
+      maxValue="100"
+      stepSize="10"
+    ></MDSlider>
+    <Label
+      row="0"
+      col="2"
+      text="100"
+      textWrap="true"
+      width="10%"
+      style="text-align: center"
+    >
+    </Label>
+  </GridLayout>
+  <Label
+    text="Slider above initial value is 50 and the dot is on 50."
+    textWrap="true"
+    horizontalAlignment="center"
+    style="text-align: center"
+  ></Label>
+
+  <Label text=" " textWrap="true"></Label>
+
+  <Label
+    text="Slider below initial value is 50 but dot is on 60. Always 1 position further than it should be."
+    textWrap="true"
+    horizontalAlignment="center"
+    style="text-align: center"
+  ></Label>
+
+  <GridLayout rows="auto" columns="auto,*,auto">
+    <Label
+      row="0"
+      col="0"
+      text="20"
+      textWrap="true"
+      width="10%"
+      style="text-align: center"
+    >
+    </Label>
+    <MDSlider
+      row="0"
+      col="1"
+      value="50"
+      minValue="20"
+      maxValue="100"
+      stepSize="10"
+    ></MDSlider>
+    <Label
+      row="0"
+      col="2"
+      text="100"
+      textWrap="true"
+      width="10%"
+      style="text-align: center"
+    >
+    </Label>
+  </GridLayout>
+</StackLayout>
